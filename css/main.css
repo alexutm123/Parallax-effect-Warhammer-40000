@@ -39,6 +39,8 @@ html, body {
 #layer-middle1 {
 	background-image: url(img/screen-1/layer-middle.png);
 	background-size: 50%; 
+	top: 20px;
+	
 	background-repeat: no-repeat;
   }
   #layer-front1 {
@@ -56,5 +58,16 @@ html, body {
 	right: -30px;
 	height:700px;
 	
+  }
+  @media (max-width: 1310px) {
+	#layer-middle1 {
+		
+	  background-image: url(img/screen-1/layer-middle.png);/* Убираем фоновое изображение в медиа-запросе */
+	  background-size: cover;
+	}
+	#layer-middle3{
+		background-image: url(img/screen-3/layer-middle.png);
+		background-size: cover;
+	}
   }
   
