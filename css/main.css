@@ -39,9 +39,10 @@ html, body {
 #layer-middle1 {
 	background-image: url(img/screen-1/layer-middle.png);
 	background-size: 50%; 
-	top: 20px;
+	top: 80px;
 	
 	background-repeat: no-repeat;
+	position: fixed; bottom: 0; right: 0;
   }
   #layer-front1 {
 	background-image: url(img/screen-1/layer-front.png);
@@ -56,7 +57,7 @@ html, body {
 	background-size: 100%; 
 	background-repeat: no-repeat;
 	right: -30px;
-	height:700px;
+	
 	
   }
   @media (max-width: 1310px) {
