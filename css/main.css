@@ -66,7 +66,7 @@ html, body {
   @media (max-width: 1310px) {
 	#layer-middle1 {
 		
-	  background-image: url(img/screen-1/layer-middle.png);/* Убираем фоновое изображение в медиа-запросе */
+	  background-image: url(img/screen-1/layer-middle.png);
 	  background-size: cover;
 	}
 	#layer-middle3{
