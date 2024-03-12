@@ -1,3 +1,6 @@
+
+
+
 new Swiper('.slider', {
 	// direction: 'vertical',
 	// freeMode: true,
