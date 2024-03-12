@@ -58,7 +58,13 @@ html, body {
 	background-repeat: no-repeat;
 	right: -30px;
   }
-
+  .fadeIn {
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+.fadeIn.visible {
+	opacity: 1;
+}
   
 
 
